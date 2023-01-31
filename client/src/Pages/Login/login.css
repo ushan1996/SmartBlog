@@ -1,0 +1,63 @@
+.login {
+  height: calc(100vh - 50px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url('https://img.freepik.com/free-vector/fall-season-background-vector-with-maple-leaves_53876-118206.jpg?w=2000');
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+.loginForm {
+  width: 320px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm > label {
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: 'Lora', serif;
+}
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Lora', serif;
+}
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(46, 189, 189);
+}
+.loginRegistrationButton {
+  background-color: tomato;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}

@@ -1,0 +1,76 @@
+.settings {
+  display: flex;
+}
+.settingWrapper {
+  flex: 9;
+  padding: 50px;
+}
+.settingTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Lora', serif;
+}
+.settingUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: teal;
+}
+.settingDeleteTitle {
+  font-size: 20px;
+  cursor: pointer;
+  color: tomato;
+}
+.settingForm {
+  display: flex;
+  flex-direction: column;
+}
+.settingPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.settingPP > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.settingPPIcon {
+  width: 44px;
+  height: 44px;
+  font-size: 22px;
+  border-radius: 50%;
+  background-color: teal;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.settingForm > label {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: 'Lora', serif;
+}
+.settingForm > input {
+  color: grey;
+  margin: 10px 0;
+  height: 35px;
+  border: none;
+  font-family: 'Lora', serif;
+  border-bottom: 1px solid lightslategrey;
+}
+.settingSubmit {
+  width: 200px;
+  align-self: center;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

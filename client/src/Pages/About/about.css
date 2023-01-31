@@ -1,0 +1,24 @@
+.Wrapper {
+  margin: 0;
+  align-items: center;
+  background: url('https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=');
+  background-size: cover;
+  height: 675px;
+}
+
+.aboutDesc {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  text-align: justify;
+  font-family: 'Lora', serif;
+}
+.aboutHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lora', serif;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 40px;
+}
